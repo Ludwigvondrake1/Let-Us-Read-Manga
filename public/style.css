@@ -1,0 +1,106 @@
+.navbar{
+    padding: 12px;
+    background-color: rgb(212, 212, 212);
+}
+.title {
+    color: rgb(74, 40, 40);
+
+}
+body{
+    background-color: rgb(226, 226, 226);
+
+}
+.contents{
+    text-align: center;
+    padding: 5vw;
+}
+#searchdiv{
+  
+    padding-top: 25px;
+    padding-bottom: 25px;
+ 
+}
+#searchedrow{
+  
+   margin-top: 50px;
+}
+
+img {
+
+    max-width: 100%;
+    
+    height: 200px;
+    
+    }
+
+
+    .col-3:hover img,
+    .col-3:hover h3 {
+        transform: scale(1.1);
+    }
+
+.col-3{
+    border: solid rgb(193, 5, 5,.75);
+    padding-top: 25px;
+    background-color: rgb(127, 217, 255,.35);
+    overflow: hidden
+}
+
+
+
+a{
+    text-decoration: none;
+    color: black;
+
+ 
+}
+
+#MIArtCover{
+    height: 250px;
+    
+    max-width: 100%;
+}
+
+
+.col-1 {
+    border: solid red;
+    position: relative;
+}
+
+/* Reset padding and margin for anchor and button */
+.ancChapter, .buttonChapter {
+    padding: 0;
+    margin: 0;
+}
+
+.ancChapter {
+    border: solid blue;
+    display: block; /* Ensures anchor tag behaves like a block-level element */
+}
+
+.buttonChapter {
+    width: 100%; /* Make the button width responsive */
+    max-width: 200px; /* Set a maximum width for the button */
+    height: auto; /* Allow height to adjust based on content */
+    padding: 10px; /* Adjust padding as needed */
+    font-size: 1em; /* Set a base font size for the button text */
+
+    /* Additional button styles */
+}
+
+/* Media queries for responsiveness */
+@media screen and (max-width: 768px) {
+    .buttonChapter {
+        max-width: 150px; /* Adjust maximum width for smaller screens */
+        padding: 8px; /* Adjust padding for smaller screens */
+        font-size: 0.9em; /* Decrease font size for smaller screens */
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .buttonChapter {
+        max-width: 100px; /* Further adjust maximum width for even smaller screens */
+        padding: 6px; /* Further adjust padding for smaller screens */
+        font-size: 0.8em; /* Further decrease font size for smaller screens */
+    }
+}
