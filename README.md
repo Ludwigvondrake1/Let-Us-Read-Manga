@@ -1,10 +1,10 @@
-Manga Reader Website
+Manga Reader Website:
 This repository contains code for a website dedicated to reading manga, utilizing the MangaDex API.
 
-Getting Started
+Getting Started:
 Before running the project, ensure you have Node.js installed on your system.
 
-Verify File Path
+Verify File Path:
 Open the terminal in VS Code.
 Navigate to the project directory to ensure the correct file path.
 Run the Project
@@ -15,5 +15,5 @@ npm run dev
 This command will start the development server and allow you to explore the manga reader website.
 
 
-Exploring the MangaDex API
+Exploring the MangaDex API:
 To learn more about the MangaDex API, visit https://api.mangadex.org/docs/.
